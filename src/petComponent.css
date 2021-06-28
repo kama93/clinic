@@ -1,0 +1,21 @@
+.submit-buton-pet{
+    width: 8%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #D0E1F9;
+    border-color: #4D648D;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    border: solid 0.5px
+}
+
+.submit-buton-pet:hover{
+    cursor: pointer;
+    width: 10%;
+    background-color: #4D648D;
+    color: white;
+    border-color: #283655;
+    font-family: 'Playfair Display', serif;
+    border: solid 0.5px
+}
