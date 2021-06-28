@@ -1,0 +1,7 @@
+.pet-info-container{
+    padding: 15px;
+    border: solid 0.5px;
+    border-color: white;
+    width: 20%;
+    border-radius: 10px;
+}

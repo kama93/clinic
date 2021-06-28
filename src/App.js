@@ -1,6 +1,7 @@
 import TextArea from './textArea';
 import PetComponent from './petComponent';
-import OwnerComponent from './ownerComponent'
+import OwnerComponent from './ownerComponent';
+import PetInfo from './petInfo'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <TextArea/>
       <PetComponent/>
       <OwnerComponent/>
+      <PetInfo/>
     </div>
   );
 }
