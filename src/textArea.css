@@ -16,7 +16,7 @@
     border-radius: 10px;
     padding: 10px;
     background-color: #D0E1F9;
-    border-color: #4D648D;
+    border-color: white !important;
     color: white;
     font-family: 'Playfair Display', serif;
     border: solid 0.5px
@@ -27,7 +27,7 @@
     width: 30%;
     background-color: #4D648D;
     color: white;
-    border-color: #283655;
+    border-color: #283655 !important;
     font-family: 'Playfair Display', serif;
     border: solid 0.5px
 }

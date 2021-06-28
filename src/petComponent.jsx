@@ -3,7 +3,7 @@ import './petComponent.css';
 function PetComponent() {
 
     return (
-        <div>
+        <div className='form-pet-container'>
             <form>
                 <label for="lname">Last name: </label>
                 <input type="text" id="fsurname" name="fsurname" /><br />
@@ -24,13 +24,17 @@ function PetComponent() {
                 <label for="female">female</label>
                 <input type="radio" id="male" name="fav_language" value="male" />
                 <label for="male">male</label><br />
+                <label for="dob">DOB: </label>
+                <input type="date"></input><br />
                 <label>Years: </label><input name="numberOfGuests" type="number" // value={} // onChange={} 
                 /> <br />
                 <label>Spayed/castrated: </label>
                 <input name="isGoing" type="checkbox" // checked={} // onChange={} 
                 />
-                <br />
+                <br/>
+                <div className='button-container'>
                 <input type="submit" value="Submit" className='submit-buton-pet' />
+                </div>
             </form>
         </div>
     );
