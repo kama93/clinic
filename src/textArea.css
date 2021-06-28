@@ -1,0 +1,33 @@
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.textArea-form{
+    border-radius: 10px;
+}
+
+.submit-buton{
+    width: 20%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #D0E1F9;
+    border-color: #4D648D;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    border: solid 0.5px
+}
+
+.submit-buton:hover{
+    cursor: pointer;
+    width: 30%;
+    background-color: #4D648D;
+    color: white;
+    border-color: #283655;
+    font-family: 'Playfair Display', serif;
+    border: solid 0.5px
+}
